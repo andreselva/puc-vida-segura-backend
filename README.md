@@ -17,7 +17,6 @@ npm install
 cp .env.example .env
 npm run start:dev
 
-# também funciona sem .env, usando valores padrão de desenvolvimento
 ```
 
 A API sobe em:
@@ -114,16 +113,3 @@ O backend já faz seed automático de um usuário demo na primeira inicializaç�
   "password": "4321"
 }
 ```
-
-## Observações de integração com o frontend
-
-O backend já foi desenhado com base nas telas e no fluxo atual do frontend:
-
-- login
-- cadastro
-- preenchimento das informações clínicas
-- geração do QR/link do perfil
-- acesso médico por senha pública
-
-Quando você me mandar o frontend, eu ajusto os serviços para trocar os mocks locais por chamadas reais nessa API.
-
