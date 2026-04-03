@@ -63,7 +63,6 @@ O backend já faz seed automático de um usuário demo na primeira inicializaç�
 
 - `POST /api/profiles/:profileId/access`
 - `POST /api/profiles/:profileId`  
-  rota legada para compatibilidade com o frontend atual
 - `GET /api/profiles/:profileId/public?password=4321`
 
 ## Payloads esperados
