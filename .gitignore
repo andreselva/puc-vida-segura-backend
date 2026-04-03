@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+.env.local
+storage/*.sqlite
+storage/*.sqlite-shm
+storage/*.sqlite-wal
